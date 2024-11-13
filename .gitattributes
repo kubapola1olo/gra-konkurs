@@ -1,0 +1,33 @@
+# Pliki map i poziomów
+*.umap    filter=lfs diff=lfs merge=lfs -text
+*.uasset  filter=lfs diff=lfs merge=lfs -text
+
+# Pliki zbudowanych danych map i poziomów
+*.ubulk   filter=lfs diff=lfs merge=lfs -text
+*.uexp    filter=lfs diff=lfs merge=lfs -text
+
+# Pliki shaderów
+*.ushaderbytecode  filter=lfs diff=lfs merge=lfs -text
+
+# Pliki binarne do budowania gry
+*.pak     filter=lfs diff=lfs merge=lfs -text
+*.ucas    filter=lfs diff=lfs merge=lfs -text
+*.utoc    filter=lfs diff=lfs merge=lfs -text
+
+# Pliki logów i zapisy stanów gry (opcjonalnie, jeśli chcesz je śledzić)
+*.sav     filter=lfs diff=lfs merge=lfs -text
+*.log     filter=lfs diff=lfs merge=lfs -text
+
+# Pliki cache oraz shaderów specyficzne dla kompilacji
+*.ddc     filter=lfs diff=lfs merge=lfs -text
+*.cache   filter=lfs diff=lfs merge=lfs -text
+
+# Eksportowane pliki i binaria
+*.exe     filter=lfs diff=lfs merge=lfs -text
+*.dll     filter=lfs diff=lfs merge=lfs -text
+*.lib     filter=lfs diff=lfs merge=lfs -text
+*.app     filter=lfs diff=lfs merge=lfs -text
+*.dylib   filter=lfs diff=lfs merge=lfs -text
+*.so      filter=lfs diff=lfs merge=lfs -text
+*.apk     filter=lfs diff=lfs merge=lfs -text
+*.ipa     filter=lfs diff=lfs merge=lfs -text

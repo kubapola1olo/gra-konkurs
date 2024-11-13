@@ -1,0 +1,8 @@
+*.log
+*.tmp
+*.exe
+*.dll
+*.pdb
+Binaries/
+Intermediate/
+Saved/
